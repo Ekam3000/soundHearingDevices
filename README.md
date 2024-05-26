@@ -1,3 +1,11 @@
+![UI](https://github.com/Ekam3000/soundHearingDevices/assets/86596600/7accde7b-deba-41f3-b085-4c19c85ceb27)
+
+![Products Added to Cart](https://github.com/Ekam3000/soundHearingDevices/assets/86596600/fa431508-7c36-4fc0-bed4-7ba3198504ed)
+
+![Out of Stock](https://github.com/Ekam3000/soundHearingDevices/assets/86596600/ac4363c8-cab3-4362-b044-1482e83987fb)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
