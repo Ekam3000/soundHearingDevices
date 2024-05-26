@@ -1,0 +1,262 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  color: #ea253e;
+  border-bottom: 4px solid #ea253e;
+  background-color: transparent;
+}
+
+.navbar {
+  display: flex;
+  background: white;
+  border-bottom: 1px solid #aaaaaa29;
+  line-height: 7;
+  height: 81px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.logo {
+  height: 28px;
+  width: 88px;
+}
+
+a.navbar-brand {
+  margin: 0 30px;
+}
+
+.navbar-left {
+  display: flex;
+  padding: 0;
+}
+
+.right-items {
+  right: 0;
+  margin-right: 60px;
+  position: absolute;
+}
+
+.nav-item {
+  padding: 0 20px;
+  font-family: "Segoe UI";
+  font-size: 14px;
+}
+
+.nav-image {
+  margin: 0 15px;
+}
+
+footer {
+  background: #5d5d5d;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-image {
+  margin-right: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+.footer-text {
+  padding: 35px 20px;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Segoe UI;
+}
+
+.footer-links {
+  padding: 35px 20px;
+}
+
+main {
+  flex: auto;
+  display: flex;
+}
+
+.cart {
+  width: 30%;
+  padding: 20px;
+  box-shadow: -9px 2px 28px #aaaaaa29;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: normal normal normal 20px/24px Segoe UI;
+}
+
+.cart-main {
+  padding-top: 40px;
+}
+
+.cart-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-mainText {
+  font: normal normal 600 18px/32px Segoe UI;
+}
+
+.cart-subText {
+  font: normal normal normal 12px Segoe UI;
+  color: #989292;
+}
+
+.cart-product {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.cart-product-details {
+  display: flex;
+}
+
+.cart-product-info {
+  font: normal normal normal 16px/19px Segoe UI;
+  line-height: 1.5;
+}
+
+.cart-product-image {
+  border-radius: 10px;
+  margin-right: 10px;
+  height: 70px;
+  width: 90px;
+}
+
+.cart-product-price-details {
+  display: flex;
+}
+
+.cart-product-price {
+  color: #ff3636;
+  font: normal normal 600 16px/25px Segoe UI;
+  margin-left: 20px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #707070;
+  padding: 15px 0;
+  font: normal normal normal 16px/19px Segoe UI;
+}
+
+.cart-items {
+  max-height: 550px;
+  overflow-y: auto;
+}
+
+.cart-total-price {
+  font: normal normal 600 16px/25px Segoe UI;
+  color: #ff3636;
+  text-transform: uppercase;
+}
+
+.products {
+  width: 70%;
+  background: #00000029;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  height: 320px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 2px 3px 20px #00000014;
+  border-radius: 20px;
+}
+
+.product-display {
+  height: 60%;
+}
+
+.product-image {
+  height: 192px;
+  width: 250px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product-details {
+  height: 40%;
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.product-detailsLeft {
+  padding: 20px 0 0 20px;
+  line-height: 1.5;
+}
+
+.product-detailsRight {
+  padding: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#product-quantity {
+  margin-top: 8px;
+  border: none;
+  border-bottom: 1px solid #707070;
+}
+
+.product-add-to-cart {
+  padding: 20px 0;
+  height: 35px;
+  width: 35px;
+}
+
+.product-quantityText {
+  font: normal normal 600 14px/19px Segoe UI;
+}
+
+.product-title {
+  font: normal normal 600 20px/27px Segoe UI;
+}
+
+.product-description {
+  font: normal normal normal 16px/21px Segoe UI;
+}
+
+.product-price {
+  font: normal normal 600 22px/33px Segoe UI;
+  letter-spacing: 0px;
+  padding-top: 10px;
+  color: #ff3636;
+  text-transform: uppercase;
+}
